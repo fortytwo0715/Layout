@@ -18,7 +18,57 @@
   <body>
 
     <!-- Your responsive signup form -->
+    <div class="container">
+      <div class="row justify-content-center">
+         <div class="col-12 col-lg-4">
+            <h1 class="text-center mb-5">Create your account</h1>
+         </div>
+      </div>
 
+      <form action="#">
+         <div class="form-row justify-content-center">
+            <div class="form-group col-6 col-lg-2">
+              <label for="firstname">Your First Name</label>
+              <input type="name" class="form-control" id="firstname" placeholder="Teddy">
+            </div>
+            <div class="form-group col-6 col-lg-2">
+              <label for="lastname">Your Last Name</label>
+              <input type="name" class="form-control" id="lastname" placeholder="Doritos">
+            </div>
+        </div>
+
+        <div class="form-row justify-content-center">
+           <div class="form-group col-12 col-lg-4">
+            <label for="emailInput">Your email</label>
+            <input type="email" class="form-control" id="emailInput" placeholder="teddy@email.com">
+          </div>
+        </div>
+
+        <div class="form-row justify-content-center">
+          <div class="form-group col-12 col-lg-4">
+            <label for="passwordInput">Your password</label>
+            <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+          </div>
+        </div>
+
+        <div class="form-row justify-content-center">
+          <div class="form-group col-12 col-lg-4">
+            <label for="selectKnowUs">How do you know us?</label>
+            <select class="form-control" id="selectKnowUs">
+              <option value="facebook">Facebook</option>
+              <option value="google search">Google Search</option>
+              <option value="a friend">A Friend</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row justify-content-center">
+          <input class="btn btn-primary btn-shadow btn-block col-12 col-lg-4" type="submit" value="Sign Up">
+        </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
     <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

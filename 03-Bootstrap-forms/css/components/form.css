@@ -1,1 +1,11 @@
 /* Your form design */
+.container {
+  box-shadow: 0px 0px 3px #FF9800;
+  padding: 40px 0;
+}
+
+.btn-shadow {
+  border-color: #FF9800;
+  background-color: coral;
+  box-shadow: 0px 0px 2px coral;
+}
