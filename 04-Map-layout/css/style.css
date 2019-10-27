@@ -8,6 +8,8 @@
 /* Importing layouts */
 @import url("pages/map.css");
 
+
+
 body {
   margin: 0;
   font-family: 'Varela Round', sans-serif;
@@ -34,3 +36,10 @@ h3 {
 .padded {
   padding: 30px 0;
 }
+
+.main-page {
+  display: flex;
+  padding-top: 70px;
+/*  width: 100%;*/
+}
+
